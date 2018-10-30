@@ -52,9 +52,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/ifast?useUnicode=true&useSSL=false
-    connectionInitSqls: SET NAMES utf8mb4;
+    connectionInitSqls: SET NAMES utf8;
     username: root
-    password: 1024key@root
+    password: 123456
     initialSize: 1
     minIdle: 3
     maxActive: 20
